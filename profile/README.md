@@ -20,13 +20,11 @@ curl -fsSL https://raw.githubusercontent.com/ym-scripts/<tool>/main/<script>.sh 
 
 ### Tools
 
-| Tool                                                                     | What it does                                                                               | Run it                                              |
+| Tool | What it does | Run it |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | --------------------------------------------------- |
-| [**pg-migrate**](https://github.com/ym-scripts/pg-migrate)               | Copy one Postgres database into another, with pre-flight checks and row-count verification | `npx github:ym-scripts/pg-migrate`                  |
-| [**portless-x-herd**](https://github.com/ym-scripts/portless-x-herd)     | Clean `https://<app>.web.test` URLs for Node dev servers alongside Laravel Herd            | `npx github:ym-scripts/portless-x-herd`             |
-| [**enable-dependabot**](https://github.com/ym-scripts/enable-dependabot) | Turn on Dependabot alerts and security updates for every repo you own                      | `npx github:ym-scripts/enable-dependabot --dry-run` |
-| [**pg-backup**](https://github.com/ym-scripts/pg-backup) | Scheduled PostgreSQL backups to disk and S3/R2, with retention, checksums and one-command restore | `npx github:ym-scripts/pg-backup --help` |
-| [**mysql-backup**](https://github.com/ym-scripts/mysql-backup) | The same for MySQL and MariaDB | `npx github:ym-scripts/mysql-backup --help` |
+| [**db-tools**](https://github.com/ym-scripts/db-tools) | Back up, restore, migrate and inspect PostgreSQL and MySQL/MariaDB: S3/R2 storage, retention, checksums, verified migrations, interactive menu | `npx github:ym-scripts/db-tools` |
+| [**portless-x-herd**](https://github.com/ym-scripts/portless-x-herd) | Clean `https://<app>.web.test` URLs for Node dev servers alongside Laravel Herd | `npx github:ym-scripts/portless-x-herd` |
+| [**enable-dependabot**](https://github.com/ym-scripts/enable-dependabot) | Turn on Dependabot alerts and security updates for every repo you own | `npx github:ym-scripts/enable-dependabot --dry-run` |
 | [**env-check**](https://github.com/ym-scripts/env-check) | Compare `.env` with `.env.example`: missing, empty and extra keys, without printing values | `npx github:ym-scripts/env-check` |
 | [**doppler-to-eas**](https://github.com/ym-scripts/doppler-to-eas) | Copy Doppler secrets into Expo EAS environments with the right visibility | `npx github:ym-scripts/doppler-to-eas dev --dry-run` |
 
