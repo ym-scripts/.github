@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="t">
+  <title id="t">ym-scripts</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#0B1120"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6EE7B7"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="509" height="509" rx="110.5" fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="3"/>
+  <!-- window controls -->
+  <circle cx="116" cy="112" r="15" fill="#F87171"/>
+  <circle cx="160" cy="112" r="15" fill="#FBBF24"/>
+  <circle cx="204" cy="112" r="15" fill="#34D399"/>
+  <!-- prompt chevron -->
+  <polyline points="108,214 182,282 108,350" fill="none" stroke="url(#accent)" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- "ym" monogram -->
+  <g fill="none" stroke="#F1F5F9" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M236 236 L272 314"/>
+    <path d="M308 236 L256 362"/>
+    <path d="M338 330 V270 Q338 238 365 238 Q392 238 392 270 V330"/>
+    <path d="M392 270 Q392 238 419 238 Q446 238 446 270 V330"/>
+  </g>
+  <!-- cursor -->
+  <rect x="108" y="398" width="96" height="26" rx="13" fill="url(#accent)" opacity=".9"/>
+</svg>
