@@ -27,6 +27,7 @@ curl -fsSL https://raw.githubusercontent.com/ym-scripts/<tool>/main/<script>.sh 
 | [**enable-dependabot**](https://github.com/ym-scripts/enable-dependabot) | Turn on Dependabot alerts and security updates for every repo you own | `npx github:ym-scripts/enable-dependabot --dry-run` |
 | [**env-check**](https://github.com/ym-scripts/env-check) | Compare `.env` with `.env.example`: missing, empty and extra keys, without printing values | `npx github:ym-scripts/env-check` |
 | [**doppler-to-eas**](https://github.com/ym-scripts/doppler-to-eas) | Copy Doppler secrets into Expo EAS environments with the right visibility | `npx github:ym-scripts/doppler-to-eas dev --dry-run` |
+| [**polinrider-cleaner**](https://github.com/ym-scripts/polinrider-cleaner) | Find and remove the PolinRider malware injection from every repo and branch you can reach, without force-pushing | `npx github:ym-scripts/polinrider-cleaner` |
 
 ### Principles
 
